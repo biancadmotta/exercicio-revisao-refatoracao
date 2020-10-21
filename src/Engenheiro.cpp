@@ -3,9 +3,8 @@
 
 class Engenheiro : public Empregado {
 
-  public:
-    std::string nome;  
+  public:  
+    int getProjetos() { return this->projetos; }
 	int projetos;
-	
 };
 

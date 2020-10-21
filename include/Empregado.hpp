@@ -7,9 +7,10 @@
 class Empregado {
 	
   public:
+    std::string nome;
     double salarioHora;  
     double quotaMensalVendas;  
-
+    std::string getNome() { return this->nome; }
 
     double pagamentoMes(double horasTrabalhadas) {
  
